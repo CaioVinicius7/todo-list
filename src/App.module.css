@@ -1,0 +1,80 @@
+.wrapper {
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+.createTodoForm {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: -2rem;
+}
+
+.createTodoForm input[type=text] {
+  width: 100%;
+  color: var(--gray-300);
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  border-radius: 6px;
+  padding: 1.25rem 1rem;
+}
+
+.createTodoForm button[type=submit] {
+  background: var(--blue-dark);
+  color: var(--gray-100);
+  font-weight: bold;
+  padding: 1.25rem;
+  border: 0;
+  border-radius: 6px;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: 0.3s;
+}
+
+.createTodoForm button[type=submit]:hover {
+  background: var(--blue);
+}
+
+.createTodoForm button[type=submit] .buttonIcon {
+  margin-left: 0.4rem;
+}
+
+.counter {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.counter div strong {
+  color: var(--blue);
+
+}
+
+.counter div + div strong {
+  color: var(--purple);
+}
+
+.counter strong + span {
+  margin-left: 0.5rem;
+  background: var(--gray-400);
+  color: var(--gray-200);
+  width: 2rem;
+  border-radius: 12px;
+  padding: 0.2rem 0.75rem;
+}
+
+
+@media (max-width: 1150px) {
+  html {
+    font-size: 87.5%;
+  }
+
+  .wrapper {
+    max-width: 85%;
+  }
+}

@@ -1,0 +1,18 @@
+.emptyList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.emptyList img {
+  width: 4rem;
+}
+
+.emptyList strong {
+  margin-top: 1.5rem;
+}
+
+.emptyList p {
+  margin-top: 0.25rem;
+}
